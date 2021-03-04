@@ -35,7 +35,8 @@ By analyzing tweets by keyword and utlizing sentiment anaylysis, we will deploy 
 ### Images from Analysis
 
 1. Count of tweets by origination location 
-![Image of Tweets by Location](/images/Location.png)
+![image](https://user-images.githubusercontent.com/69219035/110034724-cc8dfd80-7d08-11eb-8e10-86962e02c3bc.png)
+
 
 
 
