@@ -1,20 +1,20 @@
 # butler-project3-groupb
+#####Joel Cox, Zachary Gibbs & Kevin Gray
 
 ## Covid-19 Vaccination Sentiment on Twitter
 
-### Problem
+### Hypothesis
 
-Our hypothesis is that sentiment toward the Covid-19 vaccination program has been improving over the months since the announcement of the vaccine and FDA Emergency Use Authorization approvals of the first three vaccines. 
-By analyzing tweets by keyword and utlizing sentiment anaylysis, we will deploy an app that will allow users to choose a date, or range of dates, to gain an understanding of the changing nature of the U.S.-based Twitter users attitudes toward Covid-19 vaccines.
+Our hypothesis is that sentiment toward the Covid-19 vaccination program has been improving over the months since the announcement of the vaccine and FDA Emergency Use Authorization approvals of the first three U.S. vaccines; as well as the use of numerous other vaccines in nations worldwide. 
+By analyzing tweets by keyword and utlizing sentiment anaylysis, we will deploy an app that will allow users to choose a date, or range of dates, to gain an understanding of the changing nature of Twitter users' attitudes toward Covid-19 vaccines.
 
 ### Process
 
-1. Create a tool for performing sentiment analysis (Jupyter notebook)
-1. Capture tweets dating back to July 1, 2020 that fit the following characteristics:
-  1. U.S.-based Twitter users
-  1. Tweets include any of a set of keywords related to Covid-19 vaccines
-1. Build a Postgres SQL database for storing the downloaded tweets
-1. Create a webpage, using Bootstrap, to house the app
+1. Compile tweets from a database of tweets, provided by data scientist Gabriel Preda, and housed on Kaggle.
+    1. Link to Preda's database and project https://www.kaggle.com/gpreda/all-covid19-vaccines-tweets
+1. Use Pandas to prepare the CSV for analysis of the tweets, numbering more than 19,000. Among the analyses:
+    1. Tweet sentiment (as analyzed by the Vader Sentiment Analysis tool. [code](http://www.nltk.org/howto/sentiment.html) 
+1. Create a webpage, using Bootstrap, to house the app.
 1. Utilize Tabelau to visualize the data, embed Tableau notebooks into the webpage
 1. Complete an analysis/postmortem of our project
 1. Deploy the project
