@@ -55,7 +55,7 @@ By analyzing tweets by keyword and utlizing sentiment anaylysis, we will deploy 
 ![image](https://user-images.githubusercontent.com/69219035/110035919-42469900-7d0a-11eb-848e-2a1e414b054c.png)
 
 1. Count and percentage of tweets per hour of the day (local time)
-![image](https://user-images.githubusercontent.com/69219035/110036013-61ddc180-7d0a-11eb-8227-a7a96f2f36c3.png)
+![image](https://user-images.githubusercontent.com/69219035/110036013-61ddc180-7d0a-11eb-8227-a7a96f2f36c3.png).
 
 
 
