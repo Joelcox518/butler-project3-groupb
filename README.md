@@ -61,7 +61,7 @@ By analyzing tweets by keyword and utlizing sentiment anaylysis, we will deploy 
 ![image](https://user-images.githubusercontent.com/69219035/110036013-61ddc180-7d0a-11eb-8227-a7a96f2f36c3.png)
 
 
-                                                                                       ###
+                                                                                 ###
 
 
 
