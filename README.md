@@ -23,8 +23,8 @@ By analyzing tweets by keyword and utlizing sentiment anaylysis, we will deploy 
     1. Count of tweets by originating location
     1. Count of tweets by posting source
     1. Count of hashtags per tweet
-    1. Count of tweets per day of the week 
-    1. Count of tweets by day of the year
+    1. Count of tweets per date
+    1. Count of tweets by day of the week
 1. Create a webpage, using Bootstrap, to house the app.
 1. Utilize Tabelau to visualize the data, embed Tableau notebooks into the webpage
 1. Complete an analysis/postmortem of our project
@@ -33,8 +33,34 @@ By analyzing tweets by keyword and utlizing sentiment anaylysis, we will deploy 
 
 ### Images from Analysis
 
+1. Count and percentage of tweets by sentiment
+![image](https://user-images.githubusercontent.com/69219035/110036151-8df94280-7d0a-11eb-87ec-6590df8fd7e6.png)
+
 1. Count of tweets by origination location 
 ![image](https://user-images.githubusercontent.com/69219035/110034724-cc8dfd80-7d08-11eb-8e10-86962e02c3bc.png)
+
+1. Count of Tweets by posting source
+![image](https://user-images.githubusercontent.com/69219035/110035292-78374d80-7d09-11eb-96e5-834a405ff310.png)
+
+1. Count of hashtags per tweet
+![image](https://user-images.githubusercontent.com/69219035/110035384-98670c80-7d09-11eb-95ef-f70ec596ff1c.png)
+
+1. Count of tweets per date
+![image](https://user-images.githubusercontent.com/69219035/110035553-d401d680-7d09-11eb-882a-aff9bf2088e9.png)
+ 
+1. Count and percentage of tweets per date
+![image](https://user-images.githubusercontent.com/69219035/110035781-14f9eb00-7d0a-11eb-90fc-ddb254821eed.png)
+
+1. Count and percentage of tweets per day of the week
+![image](https://user-images.githubusercontent.com/69219035/110035919-42469900-7d0a-11eb-848e-2a1e414b054c.png)
+
+1. Count and percentage of tweets per hour of the day (local time)
+![image](https://user-images.githubusercontent.com/69219035/110036013-61ddc180-7d0a-11eb-8227-a7a96f2f36c3.png)
+
+
+
+
+
 
 
 
