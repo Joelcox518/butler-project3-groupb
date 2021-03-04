@@ -46,26 +46,19 @@ By analyzing tweets by keyword and utlizing sentiment anaylysis, we will deploy 
 
 ![image](https://user-images.githubusercontent.com/69219035/110035384-98670c80-7d09-11eb-95ef-f70ec596ff1c.png)
 
-1. Count of tweets per date
+5. Count of tweets per date
 
 ![image](https://user-images.githubusercontent.com/69219035/110035553-d401d680-7d09-11eb-882a-aff9bf2088e9.png)
  
-5. Count and percentage of tweets per date
+6. Count and percentage of tweets per date
 
 ![image](https://user-images.githubusercontent.com/69219035/110035781-14f9eb00-7d0a-11eb-90fc-ddb254821eed.png)
 
-6. Count and percentage of tweets per day of the week
+7. Count and percentage of tweets per day of the week
 ![image](https://user-images.githubusercontent.com/69219035/110035919-42469900-7d0a-11eb-848e-2a1e414b054c.png)
 
-7. Count and percentage of tweets per hour of the day (local time)
+8. Count and percentage of tweets per hour of the day (local time)
 ![image](https://user-images.githubusercontent.com/69219035/110036013-61ddc180-7d0a-11eb-8227-a7a96f2f36c3.png)
-
-
-
-
-
-
-
 
 
                                                                                        ###
