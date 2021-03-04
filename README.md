@@ -1,7 +1,6 @@
-# butler-project3-groupb
+# Covid-19 Vaccination Sentiment on Twitter
+## butler-project3-groupb
 #### Joel Cox, Zachary Gibbs & Kevin Gray
-
-## Covid-19 Vaccination Sentiment on Twitter
 
 ### Hypothesis
 
