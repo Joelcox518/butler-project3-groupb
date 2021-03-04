@@ -23,8 +23,7 @@ By analyzing tweets by keyword and utlizing sentiment anaylysis, we will deploy 
 ### Tools utilized
 1. Pandas
 2. CSS/Boostrap
-3. Postgres SQL database
-4. Tableau
+3. Tableau
 
                                                                                        ###
 
