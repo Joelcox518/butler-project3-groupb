@@ -13,8 +13,7 @@ By analyzing tweets by keyword and utlizing sentiment anaylysis, we will deploy 
 1. Compile tweets from a database of tweets, provided by data scientist Gabriel Preda, and housed on Kaggle.
     1. Link to Preda's database and project https://www.kaggle.com/gpreda/all-covid19-vaccines-tweets
 1. Use Pandas to prepare the CSV for analysis of the tweets, numbering more than 19,000. Among the analyses:
-    1. Tweet sentiment (as analyzed by the Vader Sentiment Analysis tool. 
-    1. [Code](http://www.nltk.org/howto/sentiment.html) || [Documentation](http://www.nltk.org/_modules/nltk/sentiment/vader.html)
+    1. Tweet sentiment (as analyzed by the Vader Sentiment Analysis tool. [Code](http://www.nltk.org/howto/sentiment.html) || [Documentation](http://www.nltk.org/_modules/nltk/sentiment/vader.html)
 1. Create a webpage, using Bootstrap, to house the app.
 1. Utilize Tabelau to visualize the data, embed Tableau notebooks into the webpage
 1. Complete an analysis/postmortem of our project
