@@ -14,6 +14,10 @@ By analyzing tweets by keyword and utlizing sentiment anaylysis, we will deploy 
 1. Tableau
 1. Heroku
 
+### User Deployment Instructions
+
+
+
 ### Process
 
 1. Compile tweets from a database of tweets, provided by data scientist Gabriel Preda, and housed on Kaggle.
@@ -31,7 +35,15 @@ By analyzing tweets by keyword and utlizing sentiment anaylysis, we will deploy 
 1. Deploy the project
 1. Prepare to present findings through a 15-minute presentation
 
+### Limitations of the Analysis/Obstacles
+
+The original intent of this project was to analyze the evolution of Covid-19 vaccine sentiment contained in U.S.-based tweets over the last six months. Our initial plan was to utilize the Twitter API for performing calls of tweets that included a specific set of keywords. Unfortunately, as we worked forward through that process we discovered that in order to have access to the full universe of germane tweets, we would need to enroll in a one-year Twitter Enterprise API subscription and the prohibitive cost of $5,000 per month. With that reality, we decided to build our model utilizing Preda's dataset of tweets.
+
+Another obstacle we encountered was establishing the country and state of origin of tweets we examined. Twitter has no requirement for users to include their real locations in their profiles. Access to the Enterprise API platform would've provided us with useful geo-location information to allow us to draw likely conclusions about the origins of tweets in our dataset.
+
 ### Images from Analysis
+
+Contained herein is a collection of output images from our Pandas file used for compiling and formatting our eventual dataframes:
 
 1. Count and percentage of tweets by sentiment
 ![image](https://user-images.githubusercontent.com/69219035/110036151-8df94280-7d0a-11eb-87ec-6590df8fd7e6.png)
@@ -59,6 +71,13 @@ By analyzing tweets by keyword and utlizing sentiment anaylysis, we will deploy 
 
 8. Count and percentage of tweets per hour of the day (local time)
 ![image](https://user-images.githubusercontent.com/69219035/110036013-61ddc180-7d0a-11eb-8227-a7a96f2f36c3.png)
+
+### Conclusions
+
+
+
+
+
 
 
                                                                                  ###
