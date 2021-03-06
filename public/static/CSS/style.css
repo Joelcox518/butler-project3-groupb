@@ -54,4 +54,11 @@ td{
     align-content: center;
 }
 
+.tableauday{
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
 
