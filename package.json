@@ -1,0 +1,20 @@
+{
+  "name": "butler-project3-groupb",
+  "version": "1.0.0",
+  "description": "project3-covid-sentiment",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo done"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joelcox518/butler-project3-groupb.git"
+  },
+  "author": "Joel Cox, Zach Gibbs, Kevin Gray",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Joelcox518/butler-project3-groupb/issues"
+  },
+  "homepage": "https://github.com/Joelcox518/butler-project3-groupb#readme"
+}
