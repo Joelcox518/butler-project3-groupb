@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS goes here -->
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/slate/bootstrap.min.css" integrity="sha384-8iuq0iaMHpnH2vSyvZMSIqQuUnQA7QM+f6srIdlgBrTSEyd//AWNMyEaSF2yPzNQ" crossorigin="anonymous">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="../static/CSS/style.css">
+        <title>Covid Sentiment</title>
+    </head>
+    <body>
+
+        <div class = "container-fluid">
+            <div class = "Container-large">
+                <div class = "row">
+                    <div class = "jumbotron">
+                        <h1>
+                            Covid-19 Sentiment Analysis
+                        </h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "container">
+                <div class = "row">
+                    <p>
+                        Welcome to our Sentiment Analysis of tweets related to Covid-19! We were able to create several graphics that represent out findings. 
+                        If you are interested in more information, please refer to our Github repository. 
+                    </p>
+
+                    <td>
+                        <a class= "link" href= "https://github.com/Joelcox518/butler-project3-groupb" target="_blank">
+                           <p style= 'text-align:center'> Link to Github Repository
+                        </a>
+            
+                    </td>
+
+                    <p>
+                        Our hypothesis is that sentiment toward the Covid-19 vaccination program has been improving over the months since the announcement 
+                        of the vaccine and FDA Emergency Use Authorization approvals of the first three U.S. vaccines; as well as the use of numerous other 
+                        vaccines in nations worldwide. By analyzing tweets by keyword and utilizing sentiment analysis, we will deploy an app that will allow 
+                        users to choose a date, or range of dates, to gain an understanding of the changing nature of Twitter users' attitudes toward Covid-19 vaccines.
+                    </p>
+
+                    <p>
+                        We were able to create this project based on data from kaggle. The Twitter API is limited in calls and expensive to gain full access. We utilized the 
+                        dateset based on the link below.
+                    </p>
+
+                    <td>
+                        <a class= "link" href= "https://www.kaggle.com/gpreda/all-covid19-vaccines-tweets" target="_blank">
+                           <p style= 'text-align:center'> Link to Kaggle dataset
+                        </a>
+            
+                    </td>
+                </div>
+            </div>
+
+            <!--Dashboard piecharts-->
+        
+                
+                    <div class='tableauPie' id='viz1614994870322' style='position: relative'>
+                        <noscript>
+                            <a href='#'>
+                                <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Covid19-SentimentAnalysis&#47;PieCharts&#47;1_rss.png' style='border: none' />
+                            </a>
+                        </noscript>
+                            <object class='tableauViz'  style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                <param name='embed_code_version' value='3' /> 
+                                <param name='site_root' value='' />
+                                <param name='name' value='Covid19-SentimentAnalysis&#47;PieCharts' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Covid19-SentimentAnalysis&#47;PieCharts&#47;1.png' /> 
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='language' value='en' />
+                            </object>
+                    </div>                
+                    
+
+                    <!--Story-->
+                    <div class='tableauPlaceholder' id='viz1614825593916' style='position: relative'>
+                        <noscript>
+                            <a href='#'>
+                                <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Covid19-SentimentAnalysis&#47;QuickLooksatCovid19VaccineSentiment&#47;1_rss.png' style='border: none' />
+                            </a>
+                        </noscript>
+                        
+                        <object class='tableauViz'  style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                            <param name='embed_code_version' value='3' /> 
+                            <param name='site_root' value='' />
+                            <param name='name' value='Covid19-SentimentAnalysis&#47;QuickLooksatCovid19VaccineSentiment' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Covid19-SentimentAnalysis&#47;QuickLooksatCovid19VaccineSentiment&#47;1.png' /> 
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='en' />
+                        </object>
+                    </div> 
+                        
+             
+
+            <!--Tweets overtime-->
+            <div class='tableauover' id='viz1614855474566' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Covid19-SentimentAnalysis&#47;TweetsbySentimentOverTime&#47;1_rss.png' style='border: none' />
+                    </a>
+                </noscript>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+                    <param name='name' value='Covid19-SentimentAnalysis&#47;TweetsbySentimentOverTime' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Covid19-SentimentAnalysis&#47;TweetsbySentimentOverTime&#47;1.png' /> 
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en' />
+                </object>
+            </div>   
+                
+            
+            <!--Date Slide-->
+            <div class='tableauslide' id='viz1614855013085' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Covid19-SentimentAnalysis&#47;TweetSentimentInaRangeofDates&#47;1_rss.png' style='border: none' />
+                    </a>\
+                </noscript>
+                
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='site_root' value='' />
+                    <param name='name' value='Covid19-SentimentAnalysis&#47;TweetSentimentInaRangeofDates' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Covid19-SentimentAnalysis&#47;TweetSentimentInaRangeofDates&#47;1.png' /> 
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en' />
+                </object>
+            </div>                
+               
+        
+        
+             <!--Sentiment before and after Inauguration-->   
+            <div class='tableauinaug' id='viz1614981179100' style='position: relative'>
+                 <noscript>
+                    <a href='#'>
+                         <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Covid19-SentimentAnalysis&#47;Dashboard2&#47;1_rss.png' style='border: none' />
+                    </a>
+                </noscript>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='site_root' value='' />
+                    <param name='name' value='Covid19-SentimentAnalysis&#47;Dashboard2' />
+                    <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Covid19-SentimentAnalysis&#47;Dashboard2&#47;1.png' /> 
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en' />
+                    <param name='filter' value='publish=yes' />
+                </object>
+            </div>
+            
+            <div class="footer">
+                <div class="container"></div>
+                    <div class="row footer-content">
+                        <h3>Contributors</h3>
+                            <div class="footer-items">
+                                <a class="footer-links" href="https://github.com/blackdenarius307" target="_blank">Zachery Gibbs</a><br>
+                                <a class="footer-links" href="https://github.com/kevingray17" target="_blank">Kevin Gray</a><br>
+                                <a class="footer-links" href="https://github.com/joelcox518" target="_blank">Joel Cox</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        
+
+  
+
+        <!-- Bootstrap -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
+    
+    </body>
+
+        <!--Dashboard1 JS-->
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1614994870322');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+                if ( divElement.offsetWidth > 800 ) {  
+                    vizElement.style.minWidth='420px';
+                    vizElement.style.maxWidth='650px';
+                    vizElement.style.width='100%';
+                    vizElement.style.minHeight='587px';
+                    vizElement.style.maxHeight='887px';
+                    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+                else if ( divElement.offsetWidth > 500 ) { 
+                    vizElement.style.minWidth='420px';
+                    vizElement.style.maxWidth='650px';
+                    vizElement.style.width='100%';
+                    vizElement.style.minHeight='587px';
+                    vizElement.style.maxHeight='887px';
+                    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+                else { vizElement.style.width='100%';vizElement.style.height='777px';}
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+
+        <!--Story JS-->               
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1614825593916');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+                vizElement.style.width='1016px';
+                vizElement.style.height='991px';                  
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+
+        <!--Tweets overtime JS-->            
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1614855474566');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+
+         <!--Dateslide JS-->
+         <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1614855013085');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>  
+        
+         <!--dashboard2 JS-->             
+         <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1614981179100');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+                if ( divElement.offsetWidth > 800 ) { 
+                    vizElement.style.minWidth='420px';
+                    vizElement.style.maxWidth='650px';
+                    vizElement.style.width='100%';
+                    vizElement.style.minHeight='587px';
+                    vizElement.style.maxHeight='887px';
+                    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+                else if ( divElement.offsetWidth > 500 ) { 
+                    vizElement.style.minWidth='420px';
+                    vizElement.style.maxWidth='650px';
+                    vizElement.style.width='100%';
+                    vizElement.style.minHeight='587px';
+                    vizElement.style.maxHeight='887px';
+                    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+                else { 
+                    vizElement.style.width='100%';
+                    vizElement.style.height='727px';}                     
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+</html>
