@@ -7,7 +7,7 @@ h1 {
 }
 
 body{
-    background-color: #b4b4b4;
+    background-color: black;
 }
 
 p{
@@ -24,7 +24,7 @@ td{
 .tableauPlaceholder{
     margin: auto;
     width: 50%;
-    padding: 10px;
+    
   }
 
 
