@@ -17,7 +17,7 @@
                 <div class = "row">
                     <!-- <div class = "jumbotron" style= "width:max-content; align-content:center;" > -->
                         <h1 style= 'text-align:center;'>
-                            Covid-19 Sentiment Analysis
+                            Covid-19 Tweet Sentiment Analysis
                         </h1>
                     <!-- </div> -->
                 </div>
@@ -26,7 +26,8 @@
             <div class = "container">
                 <div class = "row">
                     <p>
-                        Welcome to our Sentiment Analysis of tweets related to Covid-19! We were able to create several graphics that represent out findings. 
+                        Welcome to our Sentiment Analysis of tweets related to Covid-19 for the period of December 20, 2020 through March 3, 2021.
+                        Below is a collection of visualizations that represent our findings. 
                         If you are interested in more information, please refer to our Github repository. 
                     </p>
 
@@ -39,19 +40,27 @@
 
                     <p>
                         Our hypothesis is that sentiment toward the Covid-19 vaccination program has been improving over the months since the announcement 
-                        of the vaccine and FDA Emergency Use Authorization approvals of the first three U.S. vaccines; as well as the use of numerous other 
-                        vaccines in nations worldwide. By analyzing tweets by keyword and utilizing sentiment analysis, we will deploy an app that will allow 
+                        of FDA Emergency Use Authorizations of the first three U.S. vaccines; as well as the use of numerous other 
+                        vaccines worldwide. By analyzing tweets by keyword, and utilizing sentiment analysis, we deployed an app that allows 
                         users to choose a date, or range of dates, to gain an understanding of the changing nature of Twitter users' attitudes toward Covid-19 vaccines.
                     </p>
 
                     <p>
-                        We were able to create this project based on data from kaggle. The Twitter API is limited in calls and expensive to gain full access. We utilized the 
-                        dateset based on the link below.
+                        This project relied upon data compiled by data scientist Gabriel Preda and posted to kaggle. We turned to this dataset after discovering the prohibitive 
+                        expense for accessing Twitter's Enterprise API platform. Sentiment analysis was performed by using the Vader sentiment analysis tool.
                     </p>
 
                     <td>
                         <a class= "link" href= "https://www.kaggle.com/gpreda/all-covid19-vaccines-tweets" target="_blank">
+        
                            <p style= 'text-align:center'> Link to Kaggle dataset
+                        </a>
+            
+                    </td>
+                    <td>
+                        <a class= "link" href= "https://github.com/cjhutto/vaderSentiment" target="_blank">
+        
+                           <p style= 'text-align:center'> Link to VADER Sentiment tool
                         </a>
             
                     </td>
