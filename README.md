@@ -12,11 +12,7 @@ By analyzing tweets by keyword and utlizing sentiment anaylysis, we will deploy 
 1. Pandas
 1. CSS/Boostrap
 1. Tableau
-1. Heroku
-
-### User Deployment Instructions
-
-
+1. Netlify
 
 ### Process
 
