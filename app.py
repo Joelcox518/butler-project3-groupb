@@ -1,21 +1,22 @@
-# # import necessary libraries
-# from models import create_classes
-# import os
-# from flask import (
-#     Flask,
-#     render_template,
-#     jsonify,
-#     request,
-#     redirect)
+# import necessary libraries
+import os
+from flask import (
+    Flask,
+    render_template,
+    jsonify,
+    request,
+    redirect)
 
-# #################################################
-# # Flask Setup
-# #################################################
-# app = Flask(__name__)
+#################################################
+# Flask Setup
+#################################################
+app = Flask(__name__,
+            template_folder='templates',
+            static_folder='static')
 
-# #################################################
-# # Database Setup
-# #################################################
+#################################################
+# Database Setup
+#################################################
 
 # from flask_sqlalchemy import SQLAlchemy
 # app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', '') or "sqlite:///db.sqlite"
@@ -27,10 +28,10 @@
 
 # Pet = create_classes(db)
 
-# # create route that renders index.html template
-# @app.route("/")
-# def home():
-#     return render_template("main_joel.html")
+# create route that renders index.html template
+@app.route("/")
+def home():
+    return render_template('main_joel.html')
 
 
 # # Query the database and send the jsonified results
@@ -76,5 +77,5 @@
 # #     return jsonify(pet_data)
 
 
-# if __name__ == "__main__":
-#     app.run()
+if __name__ == "__main__":
+    app.run(debug=True)
